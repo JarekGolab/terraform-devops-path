@@ -19,6 +19,10 @@ W polu key_name wpisujemy nazwę swojego klucza ssh (domyślnie jest to inicjał
 po sklonowaniu repozytorium przechodzimy do katalogu resources
 
  cd resources  
+ logujemy nasz terminal do aws
+
+ awsume nazwa_naszego_profilu_aws
+ (jeśli nie pamiętamy nazwy, to komenda: cat ~/.aws/config i wtedy mamy podgląd profilu)
 
  Potem inicjalizujemy terraform
 
